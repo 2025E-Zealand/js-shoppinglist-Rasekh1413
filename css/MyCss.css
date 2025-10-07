@@ -4,6 +4,7 @@
 h2, h1 {
   color: #be4a14; }
 
+
 ul {
   background-color: #584f4d;
   border: none;
@@ -24,7 +25,7 @@ li {
   padding-top: 10px; }
 
 .unhealthy {
-  background-color: red;
+  background-color: rgb(173, 17, 17);
   color: #fff;
   text-shadow: 2px 2px 1px #914141;
   border-top: 1px solid #e99295;
