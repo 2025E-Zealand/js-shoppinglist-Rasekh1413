@@ -8,6 +8,10 @@ function plus (a,b ) {
 let result = plus(3,4);
 console.log(result);
 
+let tryk = document.getElementById("add")
+ tryk.addEventlistener("Click", nynode)
+
+
 function findnode(id, type){
     let node = document.getElementById(id);
     node.style.color = "red";
@@ -15,13 +19,18 @@ function findnode(id, type){
     node.style.fontSize = "30px";
     node.fontWeight = "bold";
 
+    node.appendChild()
+
     return node;
 }
+
 
 let newnode = findnode("title");
 console.log("New node is : ");
 console.log(newnode);
 
+let nynode = document.createElement(type);
+ 
 
 
 function minus (a,b ) {
